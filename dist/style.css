@@ -22,8 +22,8 @@ img {
     height: 200px;
 }
 
-.box1,
-.box2 {
+
+.box {
     width: 100%;
 
     display: flex;
@@ -32,21 +32,14 @@ img {
     align-items: center;
     margin: 20px;
     padding: 5px;
-    border-radius: 10px;
+
 }
 
-.box6,
-.box7,
-.box8,
-.box3,
-.box4,
-.box5 {
+.box2,
+.box1 {
     width: 300px;
     height: 400px;
     margin-right: 20px;
-
-
-
 }
 
 .title {
@@ -62,10 +55,8 @@ img {
 
 }
 
-.box6,
-.box4,
-.box5,
-.box7,
-.box8 {
+.box2 {
     background-color: white;
+    border: 1px inherit;
+    border-radius: 5px;
 }
